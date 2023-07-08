@@ -1,0 +1,14 @@
+.header__link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0E4D8E;
+   text-decoration: none;
+    margin-left: 20px;
+    
+}
+.header__link:first-of-type{
+    margin-left: 0;
+}

@@ -1,0 +1,10 @@
+.slider__title {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin:0 0 20px 0;
+}

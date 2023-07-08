@@ -1,0 +1,19 @@
+.slider__button {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 185px;
+    height: 40px;
+    align-self: flex-end;
+    margin-bottom: 81px;
+   
+    
+}
