@@ -1,0 +1,8 @@
+.bestiary__background{
+    border-radius: 90px;
+    background-color: #4598E4;
+    position: relative;
+    z-index: -1;
+    width: 185px;
+    height: 340px;
+}

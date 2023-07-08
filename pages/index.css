@@ -14,5 +14,25 @@
 @import url(../blocks/slider/__title/slider__title.css);
 @import url(../blocks/slider/__description/slider__description.css);
 @import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/locality/locality.css);
+@import url(../blocks/locality/__title/locality__title.css);
+@import url(../blocks/locality/__grid/locality__grid.css);
+@import url(../blocks/locality/__image/locality__image.css);
+@import url(../blocks/locality/__description-title/locality__description-title.css);
+@import url(../blocks/locality/__description-paragraph/locality__description-paragraph.css);
+@import url(../blocks/locality/__slider-right/locality__slider-right.css);
+@import url(../blocks/locality/__slider-left/locality__slider-left.css);
+@import url(../blocks/bestiary/bestiary.css);
+@import url(../blocks/bestiary/__title/bestiary__title.css);
+@import url(../blocks/bestiary/__grid/bestiary__grid.css);
+@import url(../blocks/bestiary/__element/bestiary__element.css);
+@import url(../blocks/bestiary/__image/bestiary__image.css);
+@import url(../blocks/bestiary/__background/bestiary__background.css);
+@import url(../blocks/bestiary/__image-green/bestiary__image-green.css);
+@import url(../blocks/bestiary/__image-fish/bestiary__image-fish.css);
+@import url(../blocks/bestiary/__description/bestiary__description.css);
+@import url(../blocks/bestiary/__description-title/bestiary__description-title.css);
+@import url(../blocks/bestiary/__description-subtitle/bestiary__description-subtitle.css);
+@import url(../blocks/bestiary/__description-paragraph/bestiary__description-paragraph.css);
 
 

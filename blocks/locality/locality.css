@@ -1,0 +1,7 @@
+.locality{
+    display: flex;
+    margin: 160px auto 50px;
+    max-width: 1127px;
+    flex-direction: column;
+
+}

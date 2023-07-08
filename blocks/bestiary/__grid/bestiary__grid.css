@@ -1,0 +1,7 @@
+.bestiary__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 290px);
+    grid-row-gap: 60px;
+    grid-column-gap: 25px;
+    margin: 120px auto 0;
+}

@@ -1,0 +1,7 @@
+.bestiary__description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 184px;
+   margin-top: 30px;
+}

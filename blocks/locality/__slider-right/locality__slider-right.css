@@ -1,0 +1,11 @@
+.locality__slider-right {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-image: url(../../../images/MestnostPravo.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 66px;
+}

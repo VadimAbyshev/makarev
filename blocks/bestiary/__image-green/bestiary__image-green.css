@@ -1,0 +1,9 @@
+.bestiary__image-green{
+    display: block;
+    position: absolute;
+    top: -25px;
+    bottom: 26px;
+    height: 341px;
+    left: -70px;
+    z-index: 2;
+}
