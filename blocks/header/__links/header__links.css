@@ -4,3 +4,9 @@
     margin-top: 33px;
     width: 750px;
 }
+
+@media screen and (max-width: 980px){
+    .header__links{
+        display: none;
+    }
+}

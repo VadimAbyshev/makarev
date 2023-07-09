@@ -8,3 +8,12 @@
     flex-direction: row;
 
 }
+
+
+@media screen and (max-width: 380px){
+    .header{
+        
+       height: 55px; 
+        
+    }
+} 

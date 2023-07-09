@@ -2,3 +2,11 @@
     display: flex;
     margin: 0 95px 0 95px;
 }
+
+
+@media screen and (max-width: 980px){
+    .header__nav{
+        display: none;
+        
+    }
+}

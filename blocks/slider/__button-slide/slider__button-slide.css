@@ -1,0 +1,14 @@
+.swiper-pagination{
+    display: flex;
+    flex-direction: column;
+    top: 468px !important;
+    right: 59px !important;
+    position: absolute;
+    
+
+    
+}
+
+.swiper-pagination-bullet-active{
+    background-color: white;
+}

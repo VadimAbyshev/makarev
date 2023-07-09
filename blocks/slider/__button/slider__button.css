@@ -12,8 +12,9 @@
     background-color: transparent;
     width: 185px;
     height: 40px;
-    align-self: flex-end;
-    margin-bottom: 81px;
-   
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    z-index: 3;
     
 }

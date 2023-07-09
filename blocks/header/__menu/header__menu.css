@@ -1,0 +1,19 @@
+.header__menu{
+    background-image: url(../../../images/headerMenu.svg);
+    background-color: transparent;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    margin-top: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    .header__menu{
+    display: block; 
+    margin-right: 16px;
+    margin-top: 10px      
+    }
+}

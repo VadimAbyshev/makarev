@@ -4,7 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./pages/index.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./pages/index.css">
   <title>Макарье</title>
 </head>
 
@@ -25,18 +30,60 @@
         </div>
     </div>
     <button name="headerButton" class="header__button">ЗАБРОНИРОВАТЬ</button>
+    <button name="headerMenu" class="header__menu"></button>
   </header>
+
+
+
   <main class="main">
-    <section class="slider slider__section">
-     <div class="slider__container">
-      <div class="slider__info">
-      <h1 class="slider__title">Лучше<br>рыбачить</br> чем хуячить</h1>  
-      <p class="slider__description">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите рыбу и получите бесплатную рыбалку на следующее посещение.
-        Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.</p>
+
+    <section class="swiper  slider__section swiper">
+  
+      <div class="swiper-wrapper">
+
+      <div class="slider__slide slide1 swiper-slide" >
+        <div class="slider__container slider-wrapper">
+          <div class="slider__info">
+            <h1 class="slider__title">Трофейная 
+              рыбалка</h1>  
+             <p class="slider__description">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите рыбу и получите бесплатную рыбалку на следующее посещение. Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.</p>
+          </div>
+        </div>
       </div>
-      <button name="sliderButton" class="slider__button">Подробнее</button>
-    </div>
+      
+      <div class="slider__slide  swiper-slide ">
+        <div class="slider__container slider-wrapper">
+          <div class="slider__info">
+            <h1 class="slider__title">Лучше<br>рыбачить</br> чем хуячить</h1>  
+             <p class="slider__description">Поймайте рыбу свыше 5 кг, вызовите егеря, зарегистрируйте свою удачу, отпустите рыбу и получите бесплатную рыбалку на следующее посещение.
+               Акция действует только при условии отпуска рыбы в водоем БЕЗ травм.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider__slide  slide3 swiper-slide">
+        <div class="slider__container slider-wrapper">
+          <div class="slider__info">
+            <h1 class="slider__title">приобретайте
+              Абонементы</h1>  
+             <p class="slider__description">Что может быть лучше рыбалки? Только Абонемент на рыбалку! Приобретайте абонементы на рыбалку в Макарье! У нас Вы испытаете комфорт и азарт которого еще не было.</p>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+        
+
+        
+        <button name="sliderButton" class="slider__button">Подробнее</button>
+        <div class="swiper-pagination "></div>
+      
+      
     </section>
+
+
+
     <section class="locality">
       <h2 class="locality__title">Местность</h2>
         <div class="locality__grid">
@@ -171,6 +218,10 @@
 
   </main>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
+<script src="./vendor/index.js"></script>
+
+
 </body>
 
 </html>

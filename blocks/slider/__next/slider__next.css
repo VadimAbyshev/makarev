@@ -1,0 +1,11 @@
+.swiper-pagination-bullet{
+    width: 16px;
+    height: 16px;
+    border-color: white;
+    margin-bottom: 18px;
+    opacity: 1;
+    background-image: url(../../../images/Ovalpystoi.svg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

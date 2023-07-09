@@ -1,0 +1,10 @@
+.slider__slide{
+    width: 1232px;
+    background-image: url(../../../images/beregMAn.png);
+    display: flex;
+    height: 620px;
+    margin-bottom: 0;
+    position: relative;
+    top:0px;
+
+}
